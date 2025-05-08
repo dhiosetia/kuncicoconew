@@ -1,2 +1,7 @@
-# kuncicoconew
-what
+game:IsLoaded()
+local PlaceId = game.PlaceId
+if PlaceId == 4972273297 then
+loadstring(game:HttpGet("https://pastebin.com/raw/maabvSxu"))()
+else
+    game.Players.LocalPlayer:kick("this game is not support")
+end
